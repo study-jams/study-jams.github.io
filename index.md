@@ -12,7 +12,7 @@ We're a biweekly (that is, meeting every two weeks) volunteer-run study group fo
 
 Well for starters, it isn't as strict as it sounds. **For one thing, there are no exams!**.
 
-Our goalis to learn all things coding together, and that is in the loosest sense of the word. Be it through projects, challenges, or even just having a chat, the aim is to learn!
+Our goal is to learn all things coding together, and that is in the loosest sense of the word. Be it through projects, challenges, or even just having a chat, the aim is to learn!
 
 ## So where and when do you meet?
 
