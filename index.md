@@ -36,9 +36,10 @@ Let me stop you there. That's totally fine! The whole point of a study group is 
 
 Maybe you've:
 
+- Got something you'd like to do a little **show & tell**.
 - Read about something interesting and want to share it.
 - Heard so much about `<insert technology here>` and want to try it out.
-- Been stuck on an issue for `ages` and want a hand.
+- Been stuck on an issue for *ages* and want a hand.
 - Got a talk recommendation.
 
 This is only the beginning! Maybe you've got a different reason for coming along!
