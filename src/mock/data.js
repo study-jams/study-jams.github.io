@@ -9,19 +9,19 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: "A coding community for",
+  name: 'all',
+  subtitle: 'who wish to join.',
+  cta: 'Come to Study Jams!',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  img: '',
+  paragraphOne: "We're a volunteer-run study group for all things programming. Heavy emphasis on all things.",
+  paragraphTwo: 'Our goal is to learn all things coding together, and that is in the loosest sense of the word. Be it through projects, challenges, or even just having a chat, the aim is to learn!',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -56,7 +56,7 @@ export const projectsData = [
 ];
 
 // CONTACT DATA
-export const contactData = {
+export const conductData = {
   cta: '',
   btn: '',
   email: '',
@@ -68,22 +68,7 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'linkedin',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'github',
-      url: '',
+      url: 'https://twitter.com/study_jams',
     },
   ],
 };
