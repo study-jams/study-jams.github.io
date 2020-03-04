@@ -9,23 +9,26 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: "A coding community for",
+  title: 'A coding community for',
   name: 'all',
   subtitle: 'who wish to join.',
   cta: 'Come to Study Jams!',
+  coc: 'Check out our Code of Conduct',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: '',
-  paragraphOne: "We're a volunteer-run study group for all things programming. Heavy emphasis on all things.",
-  paragraphTwo: 'Our goal is to learn all things coding together, and that is in the loosest sense of the word. Be it through projects, challenges, or even just having a chat, the aim is to learn!',
+  paragraphOne:
+    "We're a volunteer-run study group for all things programming. Heavy emphasis on all things.",
+  paragraphTwo:
+    'Our goal is to learn all things coding together, and that is in the loosest sense of the word. Be it through projects, challenges, or even just having a chat, the aim is to learn!',
   paragraphThree: '',
   resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
-export const projectsData = [
+export const detailsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',

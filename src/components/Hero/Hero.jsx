@@ -5,7 +5,7 @@ import PortfolioContext from '../../context/context';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, cta } = hero;
+  const { title, name, subtitle, cta, coc } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -35,6 +35,13 @@ const Header = () => {
           <p className="hero-cta">
             <a className="cta-btn cta-btn--hero" href="#about">
               {cta || 'Know more'}
+            </a>
+          </p>
+        </Fade>
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1500} distance="30px">
+          <p className="hero-cta">
+            <a className="cta-btn cta-btn--hero" href="#conduct">
+              {coc || 'Know more'}
             </a>
           </p>
         </Fade>

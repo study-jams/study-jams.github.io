@@ -6,8 +6,8 @@ import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
-const Projects = () => {
-  const { projects } = useContext(PortfolioContext);
+const Details = () => {
+  const { details } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -23,12 +23,12 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="projects">
+    <section id="details">
       <Container>
-        <div className="project-wrapper">
-          <Title title="Projects" />
-          {projects.map(project => {
-            const { id, title, info, info2, url, repo, img } = project;
+        <div className="detail-wrapper">
+          <Title title="The Deets" />
+          {details.map(detail => {
+            const { id, title, info, info2, url, repo, img } = detail;
 
             return (
               <Row key={id}>
@@ -40,8 +40,8 @@ const Projects = () => {
                     delay={500}
                     distance="30px"
                   >
-                    <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
+                    <div className="detail-wrapper__text">
+                      <h3 className="detail-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
                         <p>
                           {info ||
@@ -79,7 +79,7 @@ const Projects = () => {
                     delay={1000}
                     distance="30px"
                   >
-                    <div className="project-wrapper__image">
+                    <div className="detail-wrapper__image">
                       <a
                         href={url || '#!'}
                         target="_blank"
@@ -116,4 +116,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Details;
