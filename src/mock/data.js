@@ -31,12 +31,12 @@ export const aboutData = {
 export const detailsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'chums.jpg',
+    title: 'Where we meet',
+    info: "We meet at Wikimedia Austria's office",
+    info2: 'Stolzenthalergasse 7/1, 1080 Vienna, Austria',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
