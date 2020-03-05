@@ -6,11 +6,11 @@ import Content from './Content.mdx';
 
 const Conduct = () => {
   return (
-    <section id="contact">
+    <section id="conduct">
       <Container>
         <Title title="Code of Conduct" />
         <Fade bottom duration={1000} delay={800} distance="30px">
-          <div className="contact-wrapper">
+          <div className="conduct-wrapper">
             <Content />
           </div>
         </Fade>
