@@ -28,7 +28,7 @@ const Details = () => {
         <div className="detail-wrapper">
           <Title title="The Deets" />
           {details.map(detail => {
-            const { id, title, info, info2, url, repo, img } = detail;
+            const { id, title, info, info2, info3, url, repo, img } = detail;
 
             return (
               <Row key={id}>
@@ -47,7 +47,8 @@ const Details = () => {
                           {info ||
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
-                        <p className="mb-4">{info2 || ''}</p>
+                        <p>{info2 || ''}</p>
+                        <p className="mb-4">{info3 || ''}</p>
                       </div>
                       {repo && (
                         <a

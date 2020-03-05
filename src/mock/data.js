@@ -2,14 +2,14 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Study Jams | Coding group in Vienna, Austria', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'A coding community in Vienna, Austria for all who wish to join.', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: 'A coding community for',
+  title: 'A coding community in Vienna for',
   name: 'all',
   subtitle: 'who wish to join.',
   cta: 'Come to Study Jams!',
@@ -31,30 +31,24 @@ export const aboutData = {
 export const detailsData = [
   {
     id: uuidv1(),
-    img: 'chums.jpg',
+    img: 'wikidata.jpg',
     title: 'Where we meet',
-    info: "We meet at Wikimedia Austria's office",
+    info:
+      "We meet at Wikimedia Austria's office, where they also occasionally host amazing Wikidata Wednesdays workshops with us! ",
     info2: 'Stolzenthalergasse 7/1, 1080 Vienna, Austria',
+    info3: '(photo courtesy of Manfred Werner (WMAT), CC BY-SA 4.0)',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'chums.jpg',
+    title: 'When do you meet?',
+    info: 'Every two weeks:',
+    info2: 'Wednesday, 18th of March',
+    info3: 'Wednesday, 1st of April',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
