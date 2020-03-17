@@ -45,8 +45,8 @@ export const detailsData = [
     img: 'chums.jpg',
     title: 'When do you meet?',
     info: 'Every two weeks:',
-    info2: 'Wednesday, 18th of March',
-    info3: 'Wednesday, 1st of April',
+    info2: 'NOTE:',
+    info3: 'SUSPENDED DUE TO COVID-19 UNTIL FURTHER NOTICE',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
