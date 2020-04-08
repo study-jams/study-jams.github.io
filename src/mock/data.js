@@ -33,10 +33,13 @@ export const detailsData = [
     id: uuidv1(),
     img: 'wikidata.jpg',
     title: 'Where we meet',
-    info:
-      "We meet at Wikimedia Austria's office, where they also occasionally host amazing Wikidata Wednesdays workshops with us! ",
-    info2: 'Stolzenthalergasse 7/1, 1080 Vienna, Austria',
-    info3: '(photo courtesy of Manfred Werner (WMAT), CC BY-SA 4.0)',
+    // info:
+    // "We meet at Wikimedia Austria's office, where they also occasionally host amazing Wikidata Wednesdays workshops with us! ",
+    // info2: 'Stolzenthalergasse 7/1, 1080 Vienna, Austria',
+    // info3: '(photo courtesy of Manfred Werner (WMAT), CC BY-SA 4.0)',
+    info: 'We meet on the world wide internet!',
+    info2: 'Join us through the following link (open only during the hours)',
+    info3: 'https://floridsdorf.mittenin.at/study-jams',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -45,8 +48,8 @@ export const detailsData = [
     img: 'chums.jpg',
     title: 'When do you meet?',
     info: 'Every two weeks:',
-    info2: 'NOTE:',
-    info3: 'SUSPENDED DUE TO COVID-19 UNTIL FURTHER NOTICE',
+    info2: 'Wednesday, 15th of April',
+    info3: 'Wednesday, 22nd of April',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
