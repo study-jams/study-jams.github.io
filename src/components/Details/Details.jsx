@@ -48,7 +48,9 @@ const Details = () => {
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
                         <p>{info2 || ''}</p>
-                        <p className="mb-4">{info3 || ''}</p>
+                        <p className="mb-4">
+                          <a href="{info3 || ''}">{info3 || ''}</a>
+                        </p>
                       </div>
                       {repo && (
                         <a
