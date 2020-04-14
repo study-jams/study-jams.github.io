@@ -49,7 +49,7 @@ const Details = () => {
                         </p>
                         <p>{info2 || ''}</p>
                         <p className="mb-4">
-                          <a href="{info3 || ''}">{info3 || ''}</a>
+                          <a href="https://floridsdorf.mittenin.at/study-jams">{info3 || ''}</a>
                         </p>
                       </div>
                       {repo && (
