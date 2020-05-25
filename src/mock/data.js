@@ -49,7 +49,7 @@ export const detailsData = [
     title: 'When do you meet?',
     info: 'Every two weeks (from 18:30 to 21:00):',
     info2: 'Wednesday, 27th of May',
-    info3: 'Wednesday, 20th of May',
+    info3: 'Wednesday, 3rd of June',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
