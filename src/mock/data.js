@@ -38,7 +38,7 @@ export const detailsData = [
     // info2: 'Stolzenthalergasse 7/1, 1080 Vienna, Austria',
     // info3: '(photo courtesy of Manfred Werner (WMAT), CC BY-SA 4.0)',
     info: 'We meet on the world wide internet!',
-    info2: 'Join us through the following link (open only from 18:30 on the day):',
+    info2: 'Join us through the following link (open only from 18:30 CET on the day):',
     info3: 'https://floridsdorf.mittenin.at/study-jams',
     url: '',
     repo: '', // if no repo, the button will not show up
@@ -47,9 +47,9 @@ export const detailsData = [
     id: uuidv1(),
     img: 'chums.jpg',
     title: 'When do you meet?',
-    info: 'Every two weeks (from 18:30 to 21:00):',
-    info2: 'Wednesday, 14th of October',
-    info3: 'Wednesday, 28th of October',
+    info: 'Every two weeks (from 18:30 to 21:00 CET):',
+    info2: 'Wednesday, 28th of October',
+    info3: 'Wednesday, 11th of November',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
