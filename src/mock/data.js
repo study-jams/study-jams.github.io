@@ -47,9 +47,9 @@ export const detailsData = [
     id: uuidv1(),
     img: 'chums.jpg',
     title: 'When do you meet?',
-    info: 'Every two weeks (from 18:30 to 21:00 CET):',
-    info2: 'Wednesday, 9th of December',
-    info3: 'See you next year 2021',
+    info: 'Every two weeks (from 18:30 to 20:00 CET):',
+    info2: 'Wednesday, 3rd of February',
+    info3: 'Wednesday, 17th of February',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
