@@ -40,7 +40,10 @@
     "uuid": "^3.4.0"
   },
   "devDependencies": {
+    "@codesee/babel-plugin-instrument": "0.7.0",
+    "@codesee/tracker": "0.7.0",
     "babel-eslint": "^10.0.3",
+    "babel-preset-gatsby": "^0.11.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.9.0",
