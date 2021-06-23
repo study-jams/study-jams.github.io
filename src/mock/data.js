@@ -39,7 +39,7 @@ export const detailsData = [
     // info3: '(photo courtesy of Manfred Werner (WMAT), CC BY-SA 4.0)',
     info: 'We meet on the world wide internet!',
     info2: 'Join us through the following link (open only from 18:30 CET on the day):',
-    info3: 'https://floridsdorf.mittenin.at/study-jams',
+    info3: 'https://jitsi.mittenin.at/study-jams',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -48,8 +48,8 @@ export const detailsData = [
     img: 'chums.jpg',
     title: 'When do you meet?',
     info: 'Every two weeks (from 19:00 to 20:00 CET):',
-    info2: 'Wednesday, 28th of April',
-    info3: 'Wednesday, 12th of May',
+    info2: 'Wednesday, 23rd of June',
+    info3: 'Wednesday, 7th of July',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
