@@ -48,8 +48,8 @@ export const detailsData = [
     img: 'chums.jpg',
     title: 'When do you meet?',
     info: 'Every two weeks (from 19:00 to 20:00 CET):',
-    info2: 'Wednesday, 11th of August',
-    info3: 'Wednesday, 25th of August',
+    info2: 'Wednesday, 6th of October',
+    info3: 'Wednesday, 20th of October',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
